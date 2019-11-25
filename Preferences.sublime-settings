@@ -1,0 +1,27 @@
+{
+	"always_prompt_for_file_reload": false,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
+	"fade_fold_buttons": false,
+	"font_face": "Fira Code Retina",
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_externally_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.zip",
+		"*.pdf"
+	],
+	"theme": "Material-Theme-Palenight.sublime-theme",
+	"update_check": false,
+	"word_wrap": true
+}
+
