@@ -3,7 +3,7 @@ sudo apt install git curl wget python python3 python-pip python3-pip
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-sed -i '/plugins=(git)/d' file
+sed -i '/plugins=(git)/d' ~/.zshrc
 echo "plugins=(git zsh-autosuggestions)" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting
